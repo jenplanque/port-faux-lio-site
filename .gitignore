@@ -1,0 +1,5 @@
+/archives
+
+# macOS-specific
+.DS_Store
+

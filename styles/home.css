@@ -1,0 +1,22 @@
+/* CSS - Home Page Style Document */
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* p {
+  font-size: 22px;
+  text-align: center;
+  padding-left: 10px;
+  margin-top: 10px;
+} */
+
+.carousel-item {
+  position: center;
+  height: 400px;
+  width: 80%;
+  object-fit: cover;
+}
