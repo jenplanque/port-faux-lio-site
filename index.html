@@ -33,9 +33,11 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+    <div class="container">
+      <header>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top"
+        >
           <a
             class="navbar-brand"
             href="https://www.dictionary.com/browse/faux"
@@ -44,6 +46,7 @@
               color: rgb(2, 120, 120);
               font-size: 22px;
               font-weight: 500;
+              margin-left: 20px;
               margin-right: 10px;
               text-shadow: 2px 2px 2px rgba(130, 130, 130, 0.5);
             "
@@ -86,8 +89,8 @@
           <button
             class="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -98,33 +101,36 @@
             class="collapse navbar-collapse"
             id="navbarNav"
           >
-            <ul class="navbar-nav ms-auto">
+            <ul class="nav navbar-nav ms-auto">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
                   href="index.html"
+                  class="nav-link active"
+                  style="padding-right: 10px"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
                   href="projects.html"
-                  >Projects</a
+                  class="nav-link"
+                  style="padding-right: 10px"
+                  >Project</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
                   href="contact.html"
-                  >Contact Me</a
+                  class="nav-link"
+                  style="padding-right: 10px"
+                  >Contact Us</a
                 >
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
+    </div>
 
     <main>
       <div class="container">
