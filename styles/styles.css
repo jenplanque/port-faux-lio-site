@@ -1,5 +1,11 @@
 /* CSS - Main Style Document */
 
+/* adds padding to the top of the body element to ensure the content is not 
+hidden behind the navbar */
+body {
+  padding-top: 90px; 
+}
+
 main {
     /* width: 80%;
     max-width: 800px;
@@ -70,12 +76,9 @@ footer {
   align-items: center;
   justify-content: center;
   font-size: 12px;
-  /* background-color: white; */
   margin-top: 100px;
-  /* margin-bottom: 10%; */
   bottom: 0;
   left: 0;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
 /* .footer-text {
