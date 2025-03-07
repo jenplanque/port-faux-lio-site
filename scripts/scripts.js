@@ -1,4 +1,10 @@
-// JavaScript function ideas to enhance website in future updates
+// proposed JavaScript function code snippets to enhance website in future updates
+
+// convert username to lowercase and remove spaces
+function formatUsername(username) {
+  return username.replace(/\s+/g, '').toLowerCase();
+}
+console.log(formatUsername('John Doe')); // johndoe
 
 // custom greeting message
 function greetClient() {
@@ -8,12 +14,6 @@ function greetClient() {
 }
 console.log(greetClient()); // Hello, John Doe!
 
-// convert username to lowercase and remove spaces
-function formatUsername(username) {
-  return username.replace(/\s+/g, '').toLowerCase();
-}
-console.log(formatUsername('John Doe')); // johndoe
-
 // function to return list of project ideas from array
 const projectIdeas = ['iOS game', 'Blog', 'Mobile App'];
 function listProjectIdeas() {
@@ -21,7 +21,7 @@ function listProjectIdeas() {
 }
 console.log(listProjectIdeas()); // ["iOS game", "Blog", "Mobile App"]
 
-// function for feedback form
+// function to display verbiage from feedback form
 let feedback = [];
 function addFeedback(message) {
   feedback.push(message);

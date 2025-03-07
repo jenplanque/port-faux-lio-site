@@ -1,5 +1,9 @@
 /* CSS - Home Page Style Document */
 
+.container {
+  align-self: center;
+}
+
 h1 {
   font-size: 36px;
   text-align: center;
@@ -11,7 +15,7 @@ p {
   font-style: italic;
   text-align: center;
   margin-bottom: 20px;
-  color: rgb(21, 150, 146);
+  color: rgb(41, 96, 29);
 }
 .carousel-item {
   height: 450px;
@@ -21,6 +25,35 @@ p {
   object-fit: cover;
 }
 
-.container {
+.free-training {
   align-self: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(69, 168, 69);
+  text-shadow: 0 0 10px rgba(0.5, 0.5, 0.5, 0.3);
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.btn {
+  background-color: rgb(226, 129, 69);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0.5, 0.5, 0.5, 0.3);
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

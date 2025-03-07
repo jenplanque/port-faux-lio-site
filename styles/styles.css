@@ -1,5 +1,6 @@
 /* CSS - Main Style Document */
 
+
 /* adds padding to the top of the body element to ensure the content is not 
 hidden behind the navbar */
 body {
@@ -7,13 +8,6 @@ body {
 }
 
 main {
-    /* width: 80%;
-    max-width: 800px;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    /* display: flex; */
     justify-content: center;
 }
 
@@ -26,7 +20,6 @@ header {
 }
 
 nav {
-  /* background-color: rgb(14, 193, 213); */
   position: sticky;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin: 1px;
@@ -56,8 +49,6 @@ nav li a:hover {
   border-radius: 5px;
   font-weight: bold;
   text-shadow: 2px 2px 2px rgba(37, 154, 163, 0.1);
-
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
 nav li .active {
@@ -76,18 +67,7 @@ footer {
   align-items: center;
   justify-content: center;
   font-size: 12px;
-  margin-top: 100px;
-  bottom: 0;
+  margin-top: 60px;
+  bottom: -80px;
   left: 0;
 }
-
-/* .footer-text {
-  position: sticky;
-  font-size: 12px;
-  text-align: left;
-  left: 10px;
-  padding-top: 5px;
-  padding-left: 10px;
-  margin-bottom: 10px;
-  width: 90%;
-} */
